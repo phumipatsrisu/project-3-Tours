@@ -1,12 +1,23 @@
-# React + Vite
+# project-3-Tours
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+โปรเจกต์ “Tours” นี้เป็นเว็บแอปพลิเคชันที่พัฒนาด้วย **React + Vite** ซึ่งออกแบบมาเพื่อแสดงข้อมูลและจัดการทัวร์ (Tours) ต่าง ๆ  
+โปรเจกต์นี้เป็นส่วนหนึ่งของการเรียนรู้ด้านเว็บ (Web Development) ของ พีท  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧭 รายละเอียดโปรเจกต์  
+- ใช้ React + Vite เป็นฐาน โครงสร้างของแอป  
+- มีการจัดการสถานะ (state) เพื่อแสดงรายการทัวร์ และจัดการลบ/อัปเดตข้อมูล  
+- มีหน้าเว็บหลัก (Home) ที่แสดงรายการทัวร์ทั้งหมด  
+- มีฟังก์ชัน “ลบ” (Delete) สำหรับลบทัวร์ที่ไม่ต้องการ  
+- ใช้ ESLint เพื่อช่วยตรวจ Lint Code และรักษามาตรฐานการเขียนโค้ด  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎯 จุดประสงค์  
+- เพื่อฝึกใช้ React + Vite อย่างเป็นระบบ  
+- เพื่อเข้าใจ Concept ของ Component, Props, State, Hook ต่าง ๆ ใน React  
+- เพื่อฝึกจัดโครงสร้างโปรเจกต์ให้เป็นระเบียบ (ไฟล์ / โฟลเดอร์)  
+- เพื่อเรียนรู้การทำงานร่วมกับ JavaScript, HTML, CSS ในบริบทแอปจริง  
+
+---
